@@ -12,13 +12,13 @@ I developed a Power BI management dashboard to analyse ESA Member States’ spac
 # Datasets:
 The dashboard integrates three datasets. These datasets were cleaned, standardised, and merged using the country field as a key to create a unified analytical dataset.
 
-• ESA Member State space budgets and ESA contributions from the ESPI Space Yearbook 2023
+• **_ESA Member State space budgets and ESA contributions from the ESPI Space Yearbook 2023_**
 Source: https://www.espi.eu/wp-content/uploads/2024/08/ESPI-Yearbook-2023.pdf (section 3.3.2 National space budgets table)
 
-• GDP data from Eurostat (tec00001 dataset)
+• **_GDP data from Eurostat (tec00001 dataset)_**
 GDP data for the UK was missing, so I found the GDP of the UK from a separate source to make the project and its insights more complete. UK GDP source: https://webgate.ec.europa.eu/isdb_results/factsheets/country/overview_united-kingdom_en.pdf (overview_united-kingdom_en_GDP.pdf)
 
-• Population data from Eurostat (2022)
+• **_Population data from Eurostat (2022)_**
 Similarly, population data for the UK was missing, so I found the Population of the UK from a separate source. UK 2022 Population source: https://cbonds.com/indexes/31789/
 
 ---
@@ -34,32 +34,39 @@ Furthermore, Data modelling was implemented in Power BI using a star-like struct
 I designed several KPIs to support strategic comparative analysis across ESA Member States. These key performance indicators (KPIs) were developed to evaluate space investment levels, economic context, and relative contributions.
 
 # •	Total ESA Contribution (€M)
-Definition: Total financial contribution of each ESA Member State to the European Space Agency in 2022.
-Purpose: This measure aggregates the ESA contributions to provide a comparable overview of how much each country invests in ESA programmes.
+**Definition:** Total financial contribution of each ESA Member State to the European Space Agency in 2022.
+
+**Purpose:** This measure aggregates the ESA contributions to provide a comparable overview of how much each country invests in ESA programmes.
 
 # •	Total National Space Budget (€M)
-Definition: Total national space budget allocated by each country in 2022.
-Purpose: This metric represents the overall investment made by each country in space activities, including both ESA contributions and national space programmes.
+**Definition:** Total national space budget allocated by each country in 2022.
+
+**Purpose:** This metric represents the overall investment made by each country in space activities, including both ESA contributions and national space programmes.
 
 # •	Total GDP (€M)
-Definition: Gross Domestic Product of each country in 2022, expressed in million euros.
-Purpose: GDP is used as an economic benchmark to compare space investments relative to the size of each country's economy.
+**Definition:** Gross Domestic Product of each country in 2022, expressed in million euros.
+
+**Purpose:** GDP is used as an economic benchmark to compare space investments relative to the size of each country's economy.
 
 # •	ESA Share (%)
-Definition: Percentage of a country's national space budget that is allocated to ESA.
-Purpose: This KPI shows how strongly each country relies on ESA programmes compared to their national space activities.
+**Definition:** Percentage of a country's national space budget that is allocated to ESA.
+
+**Purpose:** This KPI shows how strongly each country relies on ESA programmes compared to their national space activities.
 
 # •	ESA % of GDP
-Definition: Ratio between a country's ESA contribution and its Gross Domestic Product.
-Purpose: This indicator measures the economic weight of ESA contributions relative to the size of a country's economy, allowing fair comparison between large and small economies.
+**Definition:** Ratio between a country's ESA contribution and its Gross Domestic Product.
+
+**Purpose:** This indicator measures the economic weight of ESA contributions relative to the size of a country's economy, allowing fair comparison between large and small economies.
 
 # •	ESA per Capita (€)
-Definition: ESA contribution divided by the country's population.
-Purpose: This KPI indicates the average ESA investment per citizen, helping to evaluate how much each country's population indirectly contributes to ESA activities.
+**Definition:** ESA contribution divided by the country's population.
+
+**Purpose:** This KPI indicates the average ESA investment per citizen, helping to evaluate how much each country's population indirectly contributes to ESA activities.
 
 # •	Total Space % of GDP
-Definition: Ratio between the total national space budget and GDP.
-Purpose: This measure evaluates how much each country invests in the space sector relative to its economic capacity.
+**Definition:** Ratio between the total national space budget and GDP.
+
+**Purpose:** This measure evaluates how much each country invests in the space sector relative to its economic capacity.
 These KPIs help evaluate both the scale of investment and the relative effort each country makes in the space sector using strategic KPI modelling. 
 
 ---
